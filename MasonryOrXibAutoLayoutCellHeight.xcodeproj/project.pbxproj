@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		459F6B10A5C2B011B95E1EFF /* libPods-MasonryOrXibAutoLayoutCellHeight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 363E5574981410B8C0A40AE1 /* libPods-MasonryOrXibAutoLayoutCellHeight.a */; };
+		7E135EBA1F57A14200D32645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E135EB91F57A14200D32645 /* main.m */; };
+		7E135EBD1F57A14200D32645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E135EBC1F57A14200D32645 /* AppDelegate.m */; };
+		7E135EC01F57A14200D32645 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E135EBF1F57A14200D32645 /* FirstViewController.m */; };
+		7E135EC31F57A14200D32645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E135EC11F57A14200D32645 /* Main.storyboard */; };
+		7E135EC51F57A14200D32645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E135EC41F57A14200D32645 /* Assets.xcassets */; };
+		7E135EC81F57A14200D32645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E135EC61F57A14200D32645 /* LaunchScreen.storyboard */; };
+		7E135ED11F57A1CF00D32645 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E135ED01F57A1CF00D32645 /* BaseViewController.m */; };
+		7E135ED41F57A21700D32645 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E135ED31F57A21700D32645 /* HomeViewController.m */; };
+		7E135ED81F57A59900D32645 /* XibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E135ED61F57A59900D32645 /* XibTableViewCell.m */; };
+		7E135ED91F57A59900D32645 /* XibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E135ED71F57A59900D32645 /* XibTableViewCell.xib */; };
+		7E135EDC1F57A5B400D32645 /* MasonryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E135EDB1F57A5B400D32645 /* MasonryCell.m */; };
+		7E135EDE1F57A9F400D32645 /* Snip20170823_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E135EDD1F57A9F400D32645 /* Snip20170823_1.png */; };
+		7E135EE31F57B09400D32645 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E135EE21F57B09400D32645 /* SecondViewController.m */; };
+		7E135EE61F57B0A200D32645 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E135EE51F57B0A200D32645 /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16146EEAABD34E579E46C3D3 /* Pods-MasonryOrXibAutoLayoutCellHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryOrXibAutoLayoutCellHeight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryOrXibAutoLayoutCellHeight/Pods-MasonryOrXibAutoLayoutCellHeight.debug.xcconfig"; sourceTree = "<group>"; };
+		30C125E663AA2744FFCC9102 /* Pods-MasonryOrXibAutoLayoutCellHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryOrXibAutoLayoutCellHeight.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryOrXibAutoLayoutCellHeight/Pods-MasonryOrXibAutoLayoutCellHeight.release.xcconfig"; sourceTree = "<group>"; };
+		363E5574981410B8C0A40AE1 /* libPods-MasonryOrXibAutoLayoutCellHeight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryOrXibAutoLayoutCellHeight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E135EB51F57A14200D32645 /* MasonryOrXibAutoLayoutCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryOrXibAutoLayoutCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E135EB91F57A14200D32645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E135EBB1F57A14200D32645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E135EBC1F57A14200D32645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E135EBE1F57A14200D32645 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7E135EBF1F57A14200D32645 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7E135EC21F57A14200D32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E135EC41F57A14200D32645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E135EC71F57A14200D32645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E135EC91F57A14200D32645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E135ECF1F57A1CF00D32645 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7E135ED01F57A1CF00D32645 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7E135ED21F57A21700D32645 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7E135ED31F57A21700D32645 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7E135ED51F57A59900D32645 /* XibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibTableViewCell.h; sourceTree = "<group>"; };
+		7E135ED61F57A59900D32645 /* XibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibTableViewCell.m; sourceTree = "<group>"; };
+		7E135ED71F57A59900D32645 /* XibTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibTableViewCell.xib; sourceTree = "<group>"; };
+		7E135EDA1F57A5B400D32645 /* MasonryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryCell.h; sourceTree = "<group>"; };
+		7E135EDB1F57A5B400D32645 /* MasonryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryCell.m; sourceTree = "<group>"; };
+		7E135EDD1F57A9F400D32645 /* Snip20170823_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20170823_1.png; sourceTree = "<group>"; };
+		7E135EE11F57B09400D32645 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7E135EE21F57B09400D32645 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7E135EE41F57B0A200D32645 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7E135EE51F57B0A200D32645 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E135EB21F57A14200D32645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459F6B10A5C2B011B95E1EFF /* libPods-MasonryOrXibAutoLayoutCellHeight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2245EF1F0D2F7300774D171A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363E5574981410B8C0A40AE1 /* libPods-MasonryOrXibAutoLayoutCellHeight.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DF6FCA6254905C49B9C9F11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16146EEAABD34E579E46C3D3 /* Pods-MasonryOrXibAutoLayoutCellHeight.debug.xcconfig */,
+				30C125E663AA2744FFCC9102 /* Pods-MasonryOrXibAutoLayoutCellHeight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E135EAC1F57A14200D32645 = {
+			isa = PBXGroup;
+			children = (
+				7E135EB71F57A14200D32645 /* MasonryOrXibAutoLayoutCellHeight */,
+				7E135EB61F57A14200D32645 /* Products */,
+				2DF6FCA6254905C49B9C9F11 /* Pods */,
+				2245EF1F0D2F7300774D171A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E135EB61F57A14200D32645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E135EB51F57A14200D32645 /* MasonryOrXibAutoLayoutCellHeight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E135EB71F57A14200D32645 /* MasonryOrXibAutoLayoutCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				7E135ECF1F57A1CF00D32645 /* BaseViewController.h */,
+				7E135ED01F57A1CF00D32645 /* BaseViewController.m */,
+				7E135ED21F57A21700D32645 /* HomeViewController.h */,
+				7E135ED31F57A21700D32645 /* HomeViewController.m */,
+				7E135EBB1F57A14200D32645 /* AppDelegate.h */,
+				7E135EBC1F57A14200D32645 /* AppDelegate.m */,
+				7E135EBE1F57A14200D32645 /* FirstViewController.h */,
+				7E135EBF1F57A14200D32645 /* FirstViewController.m */,
+				7E135EE11F57B09400D32645 /* SecondViewController.h */,
+				7E135EE21F57B09400D32645 /* SecondViewController.m */,
+				7E135EE41F57B0A200D32645 /* ThirdViewController.h */,
+				7E135EE51F57B0A200D32645 /* ThirdViewController.m */,
+				7E135EB81F57A14200D32645 /* Supporting Files */,
+				7E135EDA1F57A5B400D32645 /* MasonryCell.h */,
+				7E135EDB1F57A5B400D32645 /* MasonryCell.m */,
+				7E135ED51F57A59900D32645 /* XibTableViewCell.h */,
+				7E135ED61F57A59900D32645 /* XibTableViewCell.m */,
+				7E135ED71F57A59900D32645 /* XibTableViewCell.xib */,
+			);
+			path = MasonryOrXibAutoLayoutCellHeight;
+			sourceTree = "<group>";
+		};
+		7E135EB81F57A14200D32645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E135EC11F57A14200D32645 /* Main.storyboard */,
+				7E135EC41F57A14200D32645 /* Assets.xcassets */,
+				7E135EC61F57A14200D32645 /* LaunchScreen.storyboard */,
+				7E135EC91F57A14200D32645 /* Info.plist */,
+				7E135EDD1F57A9F400D32645 /* Snip20170823_1.png */,
+				7E135EB91F57A14200D32645 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E135EB41F57A14200D32645 /* MasonryOrXibAutoLayoutCellHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E135ECC1F57A14200D32645 /* Build configuration list for PBXNativeTarget "MasonryOrXibAutoLayoutCellHeight" */;
+			buildPhases = (
+				2695E4EECEB4FF2170D27A94 /* [CP] Check Pods Manifest.lock */,
+				7E135EB11F57A14200D32645 /* Sources */,
+				7E135EB21F57A14200D32645 /* Frameworks */,
+				7E135EB31F57A14200D32645 /* Resources */,
+				9E84A93601A9D69A0C24B30E /* [CP] Embed Pods Frameworks */,
+				73E5EBD65EF0D079E3EE4784 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasonryOrXibAutoLayoutCellHeight;
+			productName = MasonryOrXibAutoLayoutCellHeight;
+			productReference = 7E135EB51F57A14200D32645 /* MasonryOrXibAutoLayoutCellHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E135EAD1F57A14200D32645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "GoGoGold: Inxx";
+				TargetAttributes = {
+					7E135EB41F57A14200D32645 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 663Q598VGA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7E135EB01F57A14200D32645 /* Build configuration list for PBXProject "MasonryOrXibAutoLayoutCellHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E135EAC1F57A14200D32645;
+			productRefGroup = 7E135EB61F57A14200D32645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E135EB41F57A14200D32645 /* MasonryOrXibAutoLayoutCellHeight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E135EB31F57A14200D32645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E135EDE1F57A9F400D32645 /* Snip20170823_1.png in Resources */,
+				7E135EC81F57A14200D32645 /* LaunchScreen.storyboard in Resources */,
+				7E135EC51F57A14200D32645 /* Assets.xcassets in Resources */,
+				7E135EC31F57A14200D32645 /* Main.storyboard in Resources */,
+				7E135ED91F57A59900D32645 /* XibTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2695E4EECEB4FF2170D27A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73E5EBD65EF0D079E3EE4784 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryOrXibAutoLayoutCellHeight/Pods-MasonryOrXibAutoLayoutCellHeight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E84A93601A9D69A0C24B30E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryOrXibAutoLayoutCellHeight/Pods-MasonryOrXibAutoLayoutCellHeight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E135EB11F57A14200D32645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E135EC01F57A14200D32645 /* FirstViewController.m in Sources */,
+				7E135ED11F57A1CF00D32645 /* BaseViewController.m in Sources */,
+				7E135EBD1F57A14200D32645 /* AppDelegate.m in Sources */,
+				7E135ED81F57A59900D32645 /* XibTableViewCell.m in Sources */,
+				7E135EE31F57B09400D32645 /* SecondViewController.m in Sources */,
+				7E135EE61F57B0A200D32645 /* ThirdViewController.m in Sources */,
+				7E135EDC1F57A5B400D32645 /* MasonryCell.m in Sources */,
+				7E135ED41F57A21700D32645 /* HomeViewController.m in Sources */,
+				7E135EBA1F57A14200D32645 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E135EC11F57A14200D32645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E135EC21F57A14200D32645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E135EC61F57A14200D32645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E135EC71F57A14200D32645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E135ECA1F57A14200D32645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E135ECB1F57A14200D32645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E135ECD1F57A14200D32645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16146EEAABD34E579E46C3D3 /* Pods-MasonryOrXibAutoLayoutCellHeight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 663Q598VGA;
+				INFOPLIST_FILE = MasonryOrXibAutoLayoutCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoGoGold.MasonryOrXibAutoLayoutCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E135ECE1F57A14200D32645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C125E663AA2744FFCC9102 /* Pods-MasonryOrXibAutoLayoutCellHeight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 663Q598VGA;
+				INFOPLIST_FILE = MasonryOrXibAutoLayoutCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoGoGold.MasonryOrXibAutoLayoutCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E135EB01F57A14200D32645 /* Build configuration list for PBXProject "MasonryOrXibAutoLayoutCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E135ECA1F57A14200D32645 /* Debug */,
+				7E135ECB1F57A14200D32645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E135ECC1F57A14200D32645 /* Build configuration list for PBXNativeTarget "MasonryOrXibAutoLayoutCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E135ECD1F57A14200D32645 /* Debug */,
+				7E135ECE1F57A14200D32645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E135EAD1F57A14200D32645 /* Project object */;
+}
